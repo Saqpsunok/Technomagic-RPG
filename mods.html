@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101713">
+    <meta name="description" content="Каталог модов и аддонов для сборки Technomagic RPG в Minecraft.">
+    <title>Моды и аддоны — Technomagic RPG</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <header class="site-header catalog-header">
+        <a class="brand" href="1.html" aria-label="Technomagic RPG, на главную">
+            <span class="brand-mark" aria-hidden="true">T</span>
+            <span>TECHNOMAGIC <em>RPG</em></span>
+        </a>
+        <nav class="menu" aria-label="Основная навигация">
+            <a href="1.html">Гайд</a>
+            <a href="#mods">Моды</a>
+            <a href="#addons">Аддоны</a>
+        </nav>
+        <a class="header-link" href="1.html#steps">Как установить <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+        <section class="hero catalog-hero" aria-labelledby="catalog-title">
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> MINECRAFT JAVA EDITION · СПИСОК ДЛЯ СБОРКИ</p>
+                <h1 id="catalog-title">Моды и<br><span>аддоны</span></h1>
+                <p class="hero-copy">Подборка для магической техно-RPG: сначала выбери основные моды, потом дополни их аддонами. У каждого аддона указано, какой мод ему нужен.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#catalog">Смотреть каталог <span aria-hidden="true">↓</span></a>
+                    <span class="read-time"><span class="read-dot"></span> Моды и дополнения</span>
+                </div>
+            </div>
+            <div class="hero-stamp" aria-hidden="true"><span>MOD<br>LIST</span><strong>02</strong><i>✳</i></div>
+            <div class="hero-caption"><span>ВЫБИРАЙ ПО СВОЕМУ СТИЛЮ</span><span>ПРОВЕРЬ ВЕРСИЮ И ЗАГРУЗЧИК</span></div>
+        </section>
+
+        <section class="catalog content-width" id="catalog" aria-labelledby="catalog-heading">
+            <div class="catalog-heading">
+                <div>
+                    <p class="eyebrow">КАТАЛОГ</p>
+                    <h2 id="catalog-heading">Найди, что добавить</h2>
+                </div>
+                <p>Это список идей, а не готовый совместимый модпак. Версии и доступные загрузчики у проектов меняются, поэтому проверь страницу автора перед скачиванием.</p>
+            </div>
+
+            <div class="catalog-controls">
+                <div class="filter-buttons" role="group" aria-label="Фильтр каталога">
+                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">Все</button>
+                    <button class="filter-button" id="mods" type="button" data-filter="mod" aria-pressed="false">Основные моды</button>
+                    <button class="filter-button" id="addons" type="button" data-filter="addon" aria-pressed="false">Аддоны</button>
+                </div>
+                <label class="search-box">
+                    <span aria-hidden="true">⌕</span>
+                    <input id="catalog-search" type="search" placeholder="Поиск по названию" aria-label="Поиск по каталогу">
+                </label>
+            </div>
+
+            <p class="results-count" id="results-count" aria-live="polite">Показаны все элементы</p>
+            <div class="catalog-grid" id="catalog-grid">
+                <article class="catalog-item" data-type="mod" data-search="ars nouveau магия заклинания ритуалы">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">МАГИЯ</span></div>
+                    <h3>Ars Nouveau</h3>
+                    <p>Конструктор заклинаний, магические ритуалы и автоматизация с помощью фамильяров и устройств.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> магическая система сборки.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://ars.guide/" target="_blank" rel="noopener noreferrer">Вики и гайд</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Ars%20Nouveau" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item addon-item" data-type="addon" data-search="ars elemental арс элементал стихии ars nouveau">
+                    <div class="catalog-item-top"><span class="catalog-kind">АДДОН</span><span class="catalog-category">МАГИЯ</span></div>
+                    <h3>Ars Elemental</h3>
+                    <p>Расширяет Ars Nouveau новыми элементальными направлениями и связанными с ними существами.</p>
+                    <p class="catalog-requires"><strong>Нужен:</strong> Ars Nouveau.</p>
+                    <a class="catalog-link" href="https://modrinth.com/mods?q=Ars%20Elemental" target="_blank" rel="noopener noreferrer">Найти на Modrinth <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="catalog-item addon-item" data-type="addon" data-search="ars creo арс крео create ars nouveau автоматизация">
+                    <div class="catalog-item-top"><span class="catalog-kind">АДДОН</span><span class="catalog-category">МАГИЯ + ТЕХНИКА</span></div>
+                    <h3>Ars Creo</h3>
+                    <p>Связывает магические механики Ars Nouveau с автоматизацией и механизмами Create.</p>
+                    <p class="catalog-requires"><strong>Нужны:</strong> Ars Nouveau и Create.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://createmodaddons.miraheze.org/wiki/Ars_Creo" target="_blank" rel="noopener noreferrer">Вики аддона</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Ars%20Creo" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="create криэйт механизмы поезда автоматизация техника">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Create</h3>
+                    <p>Механизмы на шестернях, валах и ремнях. Подходит для фабрик, транспорта и необычных построек.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> инженерия и автоматизация.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://createmodminecraft.miraheze.org/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Вики Create</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Create" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item addon-item" data-type="addon" data-search="create steam n rails поезда железная дорога рельсы">
+                    <div class="catalog-item-top"><span class="catalog-kind">АДДОН</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Create: Steam 'n' Rails</h3>
+                    <p>Добавляет железнодорожные детали и возможности для поездов в Create.</p>
+                    <p class="catalog-requires"><strong>Нужен:</strong> Create.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://createmodaddons.miraheze.org/wiki/Create:_Steam_n_Rails" target="_blank" rel="noopener noreferrer">Вики аддона</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Create%20Steam%20n%20Rails" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item addon-item" data-type="addon" data-search="create crafts additions энергия электричество create техника">
+                    <div class="catalog-item-top"><span class="catalog-kind">АДДОН</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Create Crafts &amp; Additions</h3>
+                    <p>Добавляет способы связывать механизмы Create с электрической энергией.</p>
+                    <p class="catalog-requires"><strong>Нужен:</strong> Create.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://createmodaddons.miraheze.org/wiki/Create:_Crafts_%26_Additions" target="_blank" rel="noopener noreferrer">Вики аддона</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Create%20Crafts%20Additions" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="mekanism механизмы энергия руды переработка техника">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Mekanism</h3>
+                    <p>Большая технологическая ветка: машины, энергия и несколько этапов переработки руды.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> развитие технологической базы.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://wiki.aidancbrady.com/wiki/Main_Page" target="_blank" rel="noopener noreferrer">Вики Mekanism</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Mekanism" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item addon-item" data-type="addon" data-search="mekanism generators генераторы энергия электричество">
+                    <div class="catalog-item-top"><span class="catalog-kind">АДДОН</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Mekanism Generators</h3>
+                    <p>Расширяет Mekanism генераторами и дополнительными способами вырабатывать энергию.</p>
+                    <p class="catalog-requires"><strong>Нужен:</strong> Mekanism.</p>
+                    <a class="catalog-link" href="https://modrinth.com/mods?q=Mekanism%20Generators" target="_blank" rel="noopener noreferrer">Найти на Modrinth <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="botania ботания магия мана цветы природа">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">МАГИЯ</span></div>
+                    <h3>Botania</h3>
+                    <p>Магия природы, построенная вокруг маны, растений и устройств, которые можно автоматизировать.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> отдельная магическая прогрессия.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://github.com/VazkiiMods/Botania" target="_blank" rel="noopener noreferrer">Справка автора</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Botania" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="iron spells spellbooks магия заклинания RPG бой">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">RPG</span></div>
+                    <h3>Iron's Spells 'n Spellbooks</h3>
+                    <p>Заклинания, книги, экипировка и магический бой для приключенческой части сборки.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> сражения и развитие персонажа.</p>
+                    <a class="catalog-link" href="https://modrinth.com/mods?q=Iron%27s%20Spells%20n%20Spellbooks" target="_blank" rel="noopener noreferrer">Найти на Modrinth <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="waystones телепорт путешествия точки быстрого перемещения">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ПУТЕШЕСТВИЯ</span></div>
+                    <h3>Waystones</h3>
+                    <p>Позволяет связывать найденные точки перемещения и быстрее возвращаться в уже посещённые места.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> удобное перемещение по миру.</p>
+                    <a class="catalog-link" href="https://modrinth.com/mods?q=Waystones" target="_blank" rel="noopener noreferrer">Найти на Modrinth <span aria-hidden="true">↗</span></a>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="applied energistics 2 ae2 энергия хранение автоматизация сеть">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ТЕХНИКА</span></div>
+                    <h3>Applied Energistics 2</h3>
+                    <p>Цифровое хранение предметов, сети и автоматизация сложных рецептов.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> компактное хранилище и автокрафт.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://guide.appliedenergistics.org/1.20.1/" target="_blank" rel="noopener noreferrer">Официальный гайд</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Applied%20Energistics%202" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="farmers delight фермерский делайт еда готовка фермерство">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ЕДА И ФЕРМЕРСТВО</span></div>
+                    <h3>Farmer's Delight</h3>
+                    <p>Фермерство, новые продукты, кухонные блоки и приготовление еды.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> выживание и кулинария.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://github.com/vectorwing/FarmersDelight/wiki" target="_blank" rel="noopener noreferrer">Вики Farmer's Delight</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Farmer%27s%20Delight" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="supplementaries декор предметы механизмы полезные блоки">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ДЕКОР И УДОБСТВО</span></div>
+                    <h3>Supplementaries</h3>
+                    <p>Набор функциональных блоков, предметов и небольших механик для мира Minecraft.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> детали и полезные дополнения.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://github.com/MehVahdJukaar/Supplementaries/wiki" target="_blank" rel="noopener noreferrer">Официальная вики</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Supplementaries" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="catalog-item" data-type="mod" data-search="sophisticated backpacks рюкзаки инвентарь хранение предметы">
+                    <div class="catalog-item-top"><span class="catalog-kind">ОСНОВНОЙ МОД</span><span class="catalog-category">ХРАНЕНИЕ</span></div>
+                    <h3>Sophisticated Backpacks</h3>
+                    <p>Улучшаемые рюкзаки с фильтрами, автоподбором предметов и дополнительными функциями.</p>
+                    <p class="catalog-requires"><strong>Для чего:</strong> переноска и сортировка ресурсов.</p>
+                    <div class="catalog-links">
+                        <a class="catalog-link" href="https://github.com/P3pp3rF1y/SophisticatedBackpacks/wiki" target="_blank" rel="noopener noreferrer">Вики рюкзаков</a>
+                        <a class="catalog-link" href="https://modrinth.com/mods?q=Sophisticated%20Backpacks" target="_blank" rel="noopener noreferrer">Страница мода <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+            <p class="catalog-empty" id="catalog-empty" hidden>Ничего не нашлось. Попробуй другое название.</p>
+            <p class="mods-note"><strong>Важно:</strong> аддоны обычно требуют основной мод и иногда другие библиотеки. Проверяй список зависимостей, версию Minecraft и загрузчик на странице проекта. Не добавляй все аддоны сразу в существующий мир.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="1.html">
+            <span class="brand-mark" aria-hidden="true">T</span>
+            <span>TECHNOMAGIC <em>RPG</em></span>
+        </a>
+        <p>Удачной сборки и приятной игры.</p>
+        <a href="#top">Наверх ↑</a>
+    </footer>
+
+    <script>
+        const filterButtons = document.querySelectorAll('.filter-button');
+        const searchInput = document.querySelector('#catalog-search');
+        const catalogItems = document.querySelectorAll('.catalog-item');
+        const resultsCount = document.querySelector('#results-count');
+        const emptyMessage = document.querySelector('#catalog-empty');
+        let activeFilter = 'all';
+
+        function updateCatalog() {
+            const searchText = searchInput.value.trim().toLowerCase();
+            let visibleCount = 0;
+
+            catalogItems.forEach((item) => {
+                const matchesType = activeFilter === 'all' || item.dataset.type === activeFilter;
+                const matchesSearch = item.textContent.toLowerCase().includes(searchText)
+                    || item.dataset.search.includes(searchText);
+                const isVisible = matchesType && matchesSearch;
+
+                item.hidden = !isVisible;
+                if (isVisible) visibleCount += 1;
+            });
+
+            resultsCount.textContent = `Найдено: ${visibleCount}`;
+            emptyMessage.hidden = visibleCount > 0;
+        }
+
+        filterButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                activeFilter = button.dataset.filter;
+                filterButtons.forEach((filterButton) => {
+                    const isActive = filterButton === button;
+                    filterButton.classList.toggle('is-active', isActive);
+                    filterButton.setAttribute('aria-pressed', isActive);
+                });
+                updateCatalog();
+            });
+        });
+
+        searchInput.addEventListener('input', updateCatalog);
+        updateCatalog();
+
+        function filterFromHash() {
+            const targetButton = document.querySelector(`${location.hash}.filter-button`);
+            if (targetButton) targetButton.click();
+        }
+
+        window.addEventListener('hashchange', filterFromHash);
+        filterFromHash();
+    </script>
+</body>
+</html>
